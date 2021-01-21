@@ -58,8 +58,8 @@ class Bsoder:
 	pass
 
 
-
 """
+Docs are here : https://alex5250.github.io/bsoder/
 Simple example of code:
 	import bsoder as bsoder # imports lib
 
