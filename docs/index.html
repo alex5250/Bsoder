@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to bsoder’s documentation! &#8212; bsoder 0.01 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-bsoder-s-documentation">
+<h1>Welcome to bsoder’s documentation!<a class="headerlink" href="#welcome-to-bsoder-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="simple-api-docs">
+<h1>Simple API Docs<a class="headerlink" href="#simple-api-docs" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="simplest__bsod">
+<code class="sig-name descname">simplest__bsod</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#simplest__bsod" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<p>Call`s simple bsod using simle cmd command that is called by os module in python
+For fact ths command is working on broswer : <strong>\.globalrootdevicecondrvkernelconnect</strong>
+You can call it using :</p>
+<blockquote>
+<div><p>bsod.simplest__bsod()</p>
+</div></blockquote>
+<dl class="py function">
+<dt id="taskmanger_way">
+<code class="sig-name descname">taskmanger_way</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#taskmanger_way" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<p>Call`s simple bsod using simple cmd command that is called by os module in python
+For fact ths command is on powershell : <strong>runas /user:administrator TASKKILL /IM svchost.exe /F</strong>
+Also runas is just for as admin rights.
+You can call it using :</p>
+<blockquote>
+<div><p>bsod.taskmanger_way()</p>
+</div></blockquote>
+<dl class="py function">
+<dt id="use_external">
+<code class="sig-name descname">use_external</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#use_external" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<p>Runs simple tool by Microsoft and let you manualy run bsod.
+You can run it as :</p>
+<blockquote>
+<div><p>bsod.use_external()</p>
+</div></blockquote>
+</div>
+<div class="section" id="minimal-example-of-code">
+<h1>Minimal Example of code:<a class="headerlink" href="#minimal-example-of-code" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#This example will just import lib , and call BSOD,</span>
+<span class="c1">#Author: Alex Zaslavskis</span>
+
+<span class="kn">import</span> <span class="nn">bsoder</span> <span class="k">as</span> <span class="nn">bsoder</span> <span class="c1"># imports lib</span>
+<span class="n">bsod</span><span class="o">=</span><span class="n">bsoder</span><span class="o">.</span><span class="n">Bsoder</span><span class="p">()</span> <span class="c1"># inits lib</span>
+<span class="n">bsod</span><span class="o">.</span><span class="n">simplest__bsod</span><span class="p">()</span><span class="c1"># calls bsod</span>
+</pre></div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">bsoder</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Alex Zaslvskis.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
