@@ -3,6 +3,6 @@
 	Author: Alex Zaslavskis
 """
 	
-	import bsoder as bsoder # imports lib
-	bsod=bsoder.Bsoder() # inits lib
-	bsod.simplest__bsod()# calls bsod
+import bsoder as bsoder # imports lib
+bsod=bsoder.Bsoder() # inits lib
+bsod.simplest__bsod()# calls bsod
